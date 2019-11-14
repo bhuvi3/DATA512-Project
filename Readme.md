@@ -81,7 +81,7 @@ I would release it under CC0 licence [[2](https://creativecommons.org/publicdoma
 
 ### Related Work
 Regarding cost-of-living in a city like New York is well documented as present in this article
-[4](https://smartasset.com/mortgage/what-is-the-cost-of-living-in-new-york-city) by *smartasset*.
+[[4](https://smartasset.com/mortgage/what-is-the-cost-of-living-in-new-york-city)] by *smartasset*.
 However, more analysis is present considering long-term lease rentals which may not clearly reflect the same trends
 to short-term rentals. Since short-term rentals have gained popularity recently, analyzing Airbnb data to answer the
 questions on short-term rentals may potentially be impactful and help both kinds of stakeholders.
@@ -108,8 +108,8 @@ The data will be checked for outliers to observe if any outlier is unrealistic.
 ##### Feature Selection and Encoding
 The attributes required for the analysis to answer the above stated research questions would be retained,
 and all other attributes would be removed. Appropriate encoding would be used based on the type of data.
-For instance, z-score (mean centered and standardization) [5] would be used for numerical values,
-while categorical variables would be transformed to one-hot encoding [6].
+For instance, z-score (mean centered and standardization) [[5](https://en.wikipedia.org/wiki/Standard_score)] would be used for numerical values,
+while categorical variables would be transformed to one-hot encoding [[6](https://en.wikipedia.org/wiki/One-hot)].
 
 ##### Analytical Methods
 The analytical methods used are categorized based on the relevant research questions.
@@ -120,9 +120,9 @@ for the price would be calculated. This information can be visualized effectivel
 would be calculated. For a more granular understanding, the data could be grouped by ```room_type``` and
 ```neighborhood_group``` to observe how prices vary for different types of property across neighborhoods.
 A set of box-plots (for each room-type) can be put in a sections for each neighborhood to visualize the distribution.
-- **Q3.** A linear regression model [7] can be built on the few selected independent variables like neighborhood and room type
+- **Q3.** A linear regression model [[7](https://en.wikipedia.org/wiki/Linear_regression)] can be built on the few selected independent variables like neighborhood and room type
 to predict the price of the listing. This model could be trained on a subset of data and evaluated on a held-out subset
-to determine our effectiveness in prediction. This model can be evaluated on the R-squared metric [8].
+to determine our effectiveness in prediction. This model can be evaluated on the R-squared metric [[8](https://en.wikipedia.org/wiki/Coefficient_of_determination)].
 Interpretation of the model coefficients can help in understanding the model inferences.
 - **Q4.** The data can be grouped based on ```neighborhood_group```, and aggregate metrics based on counts of
 different ```room_types``` can be computed. This would also be visualized in matrix of box-plots as in Q2.
