@@ -75,7 +75,7 @@ the exact titles of the listing (as the name of the host can be retrieved from t
 perform this analysis.
 
 ##### Considerations for Redistributing the Data.
-As an act of ethical analysis, I would consider removing the names of hosts,
+As an act of ethical analysis, I will anonymize the data by removing the names of hosts,
 and the name of listings while analyzing and re-publishing the data. As with the original licence terms,
 I would release it under CC0 licence [[2](https://creativecommons.org/publicdomain/zero/1.0/)].
 
