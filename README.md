@@ -15,7 +15,7 @@ The notebook can be run by downdloading it and placing the data file in the same
 #### Dependencies
 The study performed in this project uses Python code. The following dependencies can be installed to reproduce this analysis.
 - ```Python==3.6.7```: Please refer to this [link](https://www.python.org/downloads/release/python-367/) for information on the python version used for this analysis.
-- ```pandas==0.24.2```: Install this python library which enables to process structural data by referring to this [link](https://pandas.pydata.org/pandas-docs/version/0.24/install.html).
+- ```pandas==0.24.2```: Install this python library which provides functions to process structured data by referring to this [link](https://pandas.pydata.org/pandas-docs/version/0.24/install.html).
 - ```numpy==1.14.6```: Install this python library which provides linear algebraic functions by referring to this [link](https://libraries.io/pypi/numpy/1.14.6).
 - ```matplotlib==3.0.3```: Install this python library which provides functions to get data visualizations by referring to this [link](https://pypi.org/project/numpy/).
 - ```Jupyter```: This package allows us to open Jupyter notebooks and access the python environment in an interactive format used in this study. Install Jupyter by referring this [link](https://jupyter.org/).
