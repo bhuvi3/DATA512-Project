@@ -31,7 +31,7 @@ The data used for this study has been derived from the New York City Airbnb Open
 and metrics in New York city for 2019 [data-link](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data)
 till 07 Jun 2019 (since 27 March 2011).
 This dataset is hosted on Kaggle under [CC0 licence](https://creativecommons.org/publicdomain/zero/1.0/) which
-dedicates this data to public domain making it open to copy, modify, distribute and perform the work without seeking permission. This data is compiled from public information from the Airbnb website, and hence the dataset providers claim that it is not private information as these are available on the public website. However, the dataset providers have also posted a disclaimer [[3](http://insideairbnb.com/about.html#disclaimers)] regarding the usage.
+dedicates this data to public domain making it open to copy, modify, distribute and perform the work without seeking permission. This data is compiled from public information from the Airbnb website, and hence the dataset providers claim that it is not private information as these are available on the public website. However, the dataset providers have also posted a [disclaimer] (http://insideairbnb.com/about.html#disclaimers) regarding the usage.
 
 #### Human-Centred and Ethical Considerations and Redistributed Data in the Repository
 The data does contain the names of hosts and the names of their properties,
