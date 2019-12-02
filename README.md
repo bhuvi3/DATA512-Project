@@ -4,6 +4,9 @@
 This is an academic course project carried out as part of "DATA512: Human Centred Data Science"
 ([course-wiki](https://wiki.communitydata.science/Human_Centered_Data_Science_(Fall_2019)#Week_1:_September_26)).
 
+### Abstract
+# TODO
+
 ### Usage
 The Jupyter notebook named ```final_project_report.ipynb``` is present in this repository which analyses
 the attached data (```airbnb_ny-2019.csv```) to answer interesting research questions.
@@ -47,5 +50,20 @@ Therefore, the redistributed version of the data on which this study is based on
 #### Data License
 The data included in this repository is released under the [CC0 licence](https://creativecommons.org/publicdomain/zero/1.0/), which dedicates this data to public domain making it open to copy, modify, distribute and perform the work without seeking permission.
 
-### Abstract
-# TODO
+##### Data Attributes and Examples.
+| Number | AttributeName                  | Description                                          | Example                            |
+|--------|--------------------------------|------------------------------------------------------|------------------------------------|
+| 1      | id                             | Listing ID                                           | 2539                               |
+| 2      | host_id                        | Host ID                                              | 2787                               |
+| 3      | neighbourhood_group            | Location                                             | Brooklyn                           |
+| 4      | neighbourhood                  | Area                                                 | Kensington                         |
+| 5      | latitude                       | Latitude coordinates                                 | 40.64749                           |
+| 6      | longitude                      | Longitude coordinates                                | -73.97237                          |
+| 7      | room_type                      | Listing space type                                   | Private room                       |
+| 8     | price                          | Price in dollars                                     | 149                                |
+| 9     | minimum_nights                 | Amount of nights minimum                             | 1                                  |
+| 10     | number_of_reviews              | Number of reviews                                    | 9                                  |
+| 11     | last_review                    | Latest review                                        | 2018-10-19                         |
+| 12     | reviews_per_month              | Number of reviews per month                          | 0.21                               |
+| 13     | calculated_host_listings_count | Amount of listing per host                           | 6                                  |
+| 14     | availability_365               | Number of days when listing is available for booking | 365                                |
