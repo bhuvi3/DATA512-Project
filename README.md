@@ -63,8 +63,8 @@ The data included in this repository is released under the [CC0 licence](https:/
 | 5      | latitude                       | Latitude coordinates                                 | 40.64749                           |
 | 6      | longitude                      | Longitude coordinates                                | -73.97237                          |
 | 7      | room_type                      | Listing space type                                   | Private room                       |
-| 8     | price                          | Price in dollars                                     | 149                                |
-| 9     | minimum_nights                 | Amount of nights minimum                             | 1                                  |
+| 8     | price                           | Price per night in USD                                     | 149                                |
+| 9     | minimum_nights                  | Amount of nights minimum                             | 1                                  |
 | 10     | number_of_reviews              | Number of reviews                                    | 9                                  |
 | 11     | last_review                    | Latest review                                        | 2018-10-19                         |
 | 12     | reviews_per_month              | Number of reviews per month                          | 0.21                               |
