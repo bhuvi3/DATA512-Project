@@ -5,7 +5,7 @@ This is an academic course project carried out as part of "DATA512: Human Centre
 ([course-wiki](https://wiki.communitydata.science/Human_Centered_Data_Science_(Fall_2019)#Week_1:_September_26)).
 
 ### Abstract
-**TODO**
+Short-term rentals are getting popular and people have been considering short-term accommodations over hotels as an affordable and convenient alternative. There are broadly two types of stakeholders - tenants who are either moving into a new city or tourists who are visiting a city for a considerable amount of time and hosts who list their property on the short-term rentals. In this project, Airbnb (a popular short-term rental hosting company) data for 2019 for New York city containing about 48000 listings has been analyzed to answer research questions that could help the stakeholders. The analysis showed that the prices in Manhattan and Brooklyn are much higher than in other neighborhoods of New York, and the prices for private room and shared room listings are very similar which could also be a reason for finding very less shared room rentals. This information could help tenants or tourists. On the other hand, analysis showed that the information present in this data was not sufficient to model the prices using linear regression, and this may be due to the high variability in the prices. The analysis also showed that there are more entire apartment and private room listings than shared room listings in all neighborhoods, and in Manhattan, the number of entire apartment listings was much higher than private room listings. These insights could help the hosts. An anonymized version of the data has been included in this repository in [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/), enabling open research possibilities with the data.
 
 ### Usage
 The Jupyter notebook named ```final_project_report.ipynb``` is present in this repository which analyses
@@ -14,12 +14,14 @@ The notebook can be run by downdloading it and placing the data file in the same
 
 #### Dependencies
 The study performed in this project uses Python code. The following dependencies can be installed to reproduce this analysis.
-- ```Python==3.6.7```: Please refer to this [link](https://www.python.org/downloads/release/python-367/) for information on the python version used for this analysis.
-- ```pandas==0.24.2```: Install this python library which provides functions to process structured data by referring to this [link](https://pandas.pydata.org/pandas-docs/version/0.24/install.html).
-- ```numpy==1.14.6```: Install this python library which provides linear algebraic functions by referring to this [link](https://libraries.io/pypi/numpy/1.14.6).
-- ```matplotlib==3.0.3```: Install this python library which provides functions to get data visualizations by referring to this [link](https://pypi.org/project/numpy/).
+- ```Python=3.6.7```: Please refer to this [link](https://www.python.org/downloads/release/python-367/) for information on the python version used for this analysis.
+- ```pandas=0.24.2```: Install this python library which provides functions to process structured data by referring to this [link](https://pandas.pydata.org/pandas-docs/version/0.24/install.html).
+- ```numpy=1.14.6```: Install this python library which provides linear algebraic functions by referring to this [link](https://libraries.io/pypi/numpy/1.14.6).
+- ```matplotlib=3.0.3```: Install this python library which provides functions to get data visualizations by referring to this [link](https://pypi.org/project/numpy/).
 - ```Jupyter```: This package allows us to open Jupyter notebooks and access the python environment in an interactive format used in this study. Install Jupyter by referring this [link](https://jupyter.org/).
 These above dependencies can be easily installed using the ```conda``` package manager. Please find more information in this [link](https://www.anaconda.com/distribution/).
+- ```scikit-learn=0.19.2```: This package is used to preprocess (normalize) the data. Install this library by reffering to this [link](https://scikit-learn.org/0.19/install.html).
+- ```statsmodels==0.9.0```: This package is used to preprocess (normalize) the data. Install this library by reffering to this [link](https://www.statsmodels.org/0.9.0/install.html).
 
 ### Data Description
 Airbnb is one of the largest short-term rental providers which connects various hosts to customers on the
@@ -36,7 +38,7 @@ populated cities in the US along with the above-mentioned attributes which makes
 The data used for this study has been derived from the New York City Airbnb Open Data which provides details on Airbnb lists
 and metrics in New York city for 2019 [data-link](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data)
 till 07 Jun 2019 (since 27 March 2011).
-This dataset is hosted on Kaggle under [CC0 licence](https://creativecommons.org/publicdomain/zero/1.0/) which
+This dataset is hosted on Kaggle under [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/) which
 dedicates this data to public domain making it open to copy, modify, distribute and perform the work without seeking permission. This data is compiled from public information from the Airbnb website, and hence the dataset providers claim that it is not private information as these are available on the public website. However, the dataset providers have also posted a [disclaimer](http://insideairbnb.com/about.html#disclaimers) regarding the usage.
 
 #### Human-Centred and Ethical Considerations and Redistributed Data in the Repository
@@ -51,7 +53,7 @@ perform this analysis.
 Therefore, the redistributed version of the data on which this study is based on and is included in this repository, has been anonymized by removing the host names and the names of the listings.
 
 #### Data License
-The data included in this repository is released under the [CC0 licence](https://creativecommons.org/publicdomain/zero/1.0/), which dedicates this data to public domain making it open to copy, modify, distribute and perform the work without seeking permission.
+The data included in this repository is released under the [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/), which dedicates this data to public domain making it open to copy, modify, distribute and perform the work without seeking permission.
 
 ##### Data Attributes and Examples.
 | Number | AttributeName                  | Description                                          | Example                            |
